@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    background-color: rgb(17, 99, 134);
+}
+
+header{
+    height: 200px;
+    background: linear-gradient(to bottom, rgba(18, 1, 43, 0.568), rgba(0, 0, 0, 0));
+    padding-top: 50px;
+}
+
+main{
+    height: 500px;
+    padding: 10px;
+}
+
+h1{
+    margin: 0;
+    text-align: center;
+    color: antiquewhite;
+    font-style: italic;
+    font-size: 50px;
+
+}
+
+form{
+    width: 400px;
+    float: left;
+    display: flex;
+}
+
+input{
+    padding: 10px 20px;
+    border: 1px;
+    font-size: 20px;
+}
+
+.search {
+    width: 100%;
+
+}
+
+.button{
+    width: 25%;
+    background-color: aliceblue;
+    color: antiquewhite;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: aqua;
+    color: aquamarine;
+}
+
+.img_button{
+    height: 2em;
+    position: relative;
+}
+.img_button:hover{
+    cursor: pointer;
+}
